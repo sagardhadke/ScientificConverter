@@ -21,24 +21,39 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:background="@drawable/back"
                 android:gravity="center"
-                android:orientation="vertical"
-                android:background="@drawable/back">
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Shri Swami Vivekanand Shikshan Sanstha "
+                    android:textColor="#CDDC39"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
                 <ImageView
-                    android:layout_width="130dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="130dp"
-                    android:src="@drawable/sagardev">
+                    android:layout_gravity="left"
+                    android:src="@drawable/clglogo">
 
                 </ImageView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="My Dashboard"
+                    android:textColor="#ffff"
                     android:textSize="30sp"
-                    android:textStyle="bold"
-                    android:textColor="#ffff">
+                    android:textStyle="bold">
 
                 </TextView>
+
             </LinearLayout>
 
             <LinearLayout
@@ -68,14 +83,14 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/profile"
-                                android:src="@drawable/profile"
+                                android:src="@drawable/number_system"
                                 android:layout_centerInParent="true">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtprofile"
-                                android:text="Profile"
+                                android:text="Number System"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -107,14 +122,14 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/rute"
-                                android:src="@drawable/route"
+                                android:src="@drawable/dataconverter"
                                 android:layout_centerInParent="true">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtrute"
-                                android:text="Rout"
+                                android:text="Data Converter"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -153,14 +168,14 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/history"
-                                android:src="@drawable/history"
+                                android:src="@drawable/currency"
                                 android:layout_centerInParent="true">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txthistory"
-                                android:text="History"
+                                android:text="currency Converter"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -192,14 +207,14 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/feedback"
-                                android:src="@drawable/feeback"
+                                android:src="@drawable/kmtom"
                                 android:layout_centerInParent="true">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtfeedback"
-                                android:text="Feedback"
+                                android:text="KM To Meter"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -238,14 +253,14 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/setting"
-                                android:src="@drawable/setting"
+                                android:src="@drawable/dtime"
                                 android:layout_centerInParent="true">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtsetting"
-                                android:text="Profile"
+                                android:text="Time Converter"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
@@ -278,14 +293,14 @@
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
                                 android:id="@+id/support"
-                                android:src="@drawable/support"
+                                android:src="@drawable/calculator"
                                 android:layout_centerInParent="true">
                             </ImageView>
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtsupport"
-                                android:text="Support"
+                                android:text="Calculator"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
