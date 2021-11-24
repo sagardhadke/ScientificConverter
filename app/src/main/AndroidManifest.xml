@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
-        <activity android:name=".CalculatorApi"></activity>
+        <activity android:name=".timeconverterapi"></activity>
+        <activity android:name=".kmtomapi" />
+        <activity android:name=".Currencyconverterapi" />
+        <activity android:name=".dataconverterapi" />
+        <activity android:name=".numbersystemApi" />
+        <activity android:name=".CalculatorApi" />
         <activity android:name=".Info" />
         <activity android:name=".Dashboard" />
         <activity android:name=".MainActivity">
