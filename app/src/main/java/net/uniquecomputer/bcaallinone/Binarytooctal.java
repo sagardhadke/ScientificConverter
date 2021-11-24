@@ -8,15 +8,15 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class Decimaltobinary extends AppCompatActivity {
+public class Binarytooctal extends AppCompatActivity {
     private WebView mywebView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_decimaltobinary);
+        setContentView(R.layout.activity_binarytooctal);
         mywebView=(WebView) findViewById(R.id.webview);
         mywebView.setWebViewClient(new WebViewClient());
-        mywebView.loadUrl("https://www.unitconverters.net/numbers/decimal-to-binary.htm");
+        mywebView.loadUrl("https://www.unitconverters.net/numbers/binary-to-octal.htm");
         WebSettings webSettings=mywebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }

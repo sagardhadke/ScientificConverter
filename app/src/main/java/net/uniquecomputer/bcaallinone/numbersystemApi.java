@@ -45,9 +45,14 @@ public class numbersystemApi extends AppCompatActivity {
                     startActivity(new Intent(numbersystemApi.this,Decimaltobinary.class));
 
                 }else if (position==1) {
-
                     //Binary to decimal
-                }else {
+
+                    startActivity(new Intent(numbersystemApi.this,Binarytodecimal.class));
+
+                }else if (position==2) {
+                    //Binary to octal
+
+                    startActivity(new Intent(numbersystemApi.this,Binarytooctal.class));
 
                 }
             };
