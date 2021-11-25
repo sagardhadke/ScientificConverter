@@ -2,26 +2,26 @@ package net.uniquecomputer.bcaallinone;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
 import androidx.appcompat.app.AppCompatActivity;
-public class Binarytodecimal extends AppCompatActivity {
+
+public class DecimaltoHexadecimal extends AppCompatActivity {
+    // Giving name to the variables for two EditTexts and two Buttons
+    // input is where the user will input the decimal number
+    // output is where the user will get the output in the form of binary number
+    // submit is the button created to submit the decimal number entered by the user
+    // clear is the button to clear the answer
+    EditText input, output;
+    Button submit, reset;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_binarytodecimal);
-
-        // Giving name to the variables for two EditTexts and two Buttons
-        // input is where the user will input the decimal number
-        // output is where the user will get the output in the form of binary number
-        // submit is the button created to submit the decimal number entered by the user
-        // clear is the button to clear the answer
-        EditText input, output;
-        Button submit, reset;
+        setContentView(R.layout.activity_decimalto_hexadecimal);
 
         // Calling the EditText by id which we gave in xml file
         input = (EditText) findViewById(R.id.editText);
@@ -39,15 +39,16 @@ public class Binarytodecimal extends AppCompatActivity {
                 // Creating a string method argument
                 String string = input.getText().toString();
 
-                // Here, we are parsing a string method
-                // argument into an integer object
-                int i = Integer.parseInt(string, 2);
+                // Here, we are parsing a string
+                // method argument into an integer object
+                int i = Integer.parseInt(string);
 
                 // Converts and stores it in the form of string
-                String decimal = Integer.toString(i);
+                String hexadecimal = Integer.toHexString(i);
 
-                // It will show the output in the second edit text that we created
-                output.setText(decimal);
+                // It will show the output in the
+                // second edit text that we created
+                output.setText(hexadecimal);
             }
         });
 
@@ -64,4 +65,3 @@ public class Binarytodecimal extends AppCompatActivity {
 
     }
 }
-

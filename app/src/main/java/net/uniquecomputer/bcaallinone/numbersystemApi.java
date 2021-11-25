@@ -60,6 +60,10 @@ public class numbersystemApi extends AppCompatActivity {
 
                     startActivity(new Intent(numbersystemApi.this,Binarytohexadecimal.class));
 
+                }else if (position==4) {
+                    //Decimal to Hexadecimal
+
+                    startActivity(new Intent(numbersystemApi.this,DecimaltoHexadecimal.class));
 
 
 
