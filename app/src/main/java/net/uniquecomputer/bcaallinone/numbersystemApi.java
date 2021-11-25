@@ -60,10 +60,22 @@ public class numbersystemApi extends AppCompatActivity {
 
                     startActivity(new Intent(numbersystemApi.this,Binarytohexadecimal.class));
 
-                }else if (position==4) {
+                }else if (position==9) {
                     //Decimal to Hexadecimal
 
                     startActivity(new Intent(numbersystemApi.this,DecimaltoHexadecimal.class));
+
+                }else if (position==4) {
+                    //Octal to decimal
+
+                    startActivity(new Intent(numbersystemApi.this,OctaltoDecimal.class));
+
+                }else if (position==5) {
+                    //Octal to binary
+
+                    startActivity(new Intent(numbersystemApi.this,Octaltobinary.class));
+
+
 
 
 
