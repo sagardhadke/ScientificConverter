@@ -6,8 +6,74 @@
     android:layout_height="match_parent"
     tools:context=".Binarytodecimal">
 
-    <WebView
-        android:id="@+id/webview"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_text_border"
+        android:digits="01"
+        android:hint="Enter a Binary Number"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="Submit"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Answer will appear here"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/output"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp"
+        android:text="Reset"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reset"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="⚫ Click on Submit Button after entering a Binary Number"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="⚫ Click on Reset Button to reset"
+        android:textStyle="bold"
+        android:textSize="15dp" />
 </RelativeLayout>

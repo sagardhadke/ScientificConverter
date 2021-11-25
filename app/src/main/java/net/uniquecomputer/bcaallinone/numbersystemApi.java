@@ -31,6 +31,7 @@ public class numbersystemApi extends AppCompatActivity {
         list.add("Octal to hexa-decimal");
         list.add("Hexa-decimal To binary");
         list.add("Hexa-decimal to octal");
+        list.add("Decimal to Hexadecimal");
 
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(getApplicationContext(), android.R.layout.simple_list_item_1,list);
@@ -53,6 +54,18 @@ public class numbersystemApi extends AppCompatActivity {
                     //Binary to octal
 
                     startActivity(new Intent(numbersystemApi.this,Binarytooctal.class));
+
+                }else if (position==3) {
+                    //Binary to hexa-decimal
+
+                    startActivity(new Intent(numbersystemApi.this,Binarytohexadecimal.class));
+
+
+
+
+
+
+
 
                 }
             };
