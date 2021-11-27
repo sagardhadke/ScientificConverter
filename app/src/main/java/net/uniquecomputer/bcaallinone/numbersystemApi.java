@@ -76,9 +76,21 @@ public class numbersystemApi extends AppCompatActivity {
                     startActivity(new Intent(numbersystemApi.this,Octaltobinary.class));
 
 
+                }else if (position==6) {
+                    //Octal to hexa-decimal
+
+                    startActivity(new Intent(numbersystemApi.this,Octaltohexadecimal.class));
 
 
+                }else if (position==7) {
+                    //Hexa-decimal To binary
 
+                    startActivity(new Intent(numbersystemApi.this,HexadecimalTobinary.class));
+
+
+                }else if (position==8) {
+                    //Hexa-decimal to octal
+                    startActivity(new Intent(numbersystemApi.this,Hexadecimaltooctal.class));
 
 
 
