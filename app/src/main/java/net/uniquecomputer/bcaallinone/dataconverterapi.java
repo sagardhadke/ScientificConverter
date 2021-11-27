@@ -74,6 +74,21 @@ public class dataconverterapi extends AppCompatActivity {
                     //TB-GB
                     startActivity(new Intent(dataconverterapi.this,TBGB.class));
 
+                }else if (position==8){
+                    //Bytes-MB
+                    startActivity(new Intent(dataconverterapi.this,BytesMB.class));
+
+
+                }else if (position==9){
+                    //Bytes-GB
+                    startActivity(new Intent(dataconverterapi.this,BytesGB.class));
+
+
+                }else if (position==10){
+                    //Bytes-TB
+                    startActivity(new Intent(dataconverterapi.this,BytesTB.class));
+
+
 
 
                 }
