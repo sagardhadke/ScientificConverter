@@ -49,6 +49,31 @@ public class dataconverterapi extends AppCompatActivity {
                     startActivity(new Intent(dataconverterapi.this,MBKB.class));
 
                 }else if (position==2){
+                    //MB-GB
+                    startActivity(new Intent(dataconverterapi.this,MBGB.class));
+
+                }else if (position==3){
+                    //GB-MB
+                    startActivity(new Intent(dataconverterapi.this,GBMB.class));
+
+
+                }else if (position==4){
+                    //MB-TB
+                    startActivity(new Intent(dataconverterapi.this,MBTB.class));
+
+                }else if (position==5){
+                    //TB-MB
+                    startActivity(new Intent(dataconverterapi.this,TbMB.class));
+
+                }else if (position==6){
+                    //GB-TB
+                    startActivity(new Intent(dataconverterapi.this,GBTB.class));
+
+
+                }else if (position==7){
+                    //TB-GB
+                    startActivity(new Intent(dataconverterapi.this,TBGB.class));
+
 
 
                 }

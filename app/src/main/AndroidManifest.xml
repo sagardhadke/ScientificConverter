@@ -11,7 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
-        <activity android:name=".MBKB"></activity>
+        <activity android:name=".TBGB"></activity>
+        <activity android:name=".GBTB" />
+        <activity android:name=".TbMB" />
+        <activity android:name=".MBTB" />
+        <activity android:name=".GBMB" />
+        <activity android:name=".MBGB" />
+        <activity android:name=".MBKB" />
         <activity android:name=".KBMB" />
         <activity android:name=".Hexadecimaltooctal" />
         <activity android:name=".HexadecimalTobinary" />
