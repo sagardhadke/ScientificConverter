@@ -11,7 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
-        <activity android:name=".BytesTB"></activity>
+        <activity android:name=".NMtoMM"></activity>
+        <activity android:name=".MMtoNM" />
+        <activity android:name=".KmtoM" />
+        <activity android:name=".MtoKm" />
+        <activity android:name=".IntoF" />
+        <activity android:name=".Fin" />
+        <activity android:name=".CMToM" />
+        <activity android:name=".MCM" />
+        <activity android:name=".BytesTB" />
         <activity android:name=".BytesGB" />
         <activity android:name=".BytesMB" />
         <activity android:name=".TBGB" />

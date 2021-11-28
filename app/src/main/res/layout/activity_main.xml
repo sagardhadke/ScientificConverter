@@ -214,7 +214,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:id="@+id/txtfeedback"
-                                android:text="KM To Meter"
+                                android:text="Length converter"
                                 android:textSize="16sp"
                                 android:textStyle="bold"
                                 android:layout_centerInParent="true"
