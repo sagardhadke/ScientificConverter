@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".timeconverterapi">
+    tools:context=".HourstoMinutes">
 
-    <ListView
+
+    <WebView
+        android:id="@+id/webview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/timelistview"/>
-
+        android:layout_height="match_parent" />
 </RelativeLayout>
