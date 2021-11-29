@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
-        <activity android:name=".YearstoMonths"></activity>
+        <activity android:name=".CategoryActivity"></activity>
+        <activity android:name=".YearstoMonths" />
         <activity android:name=".MonthstoYears" />
         <activity android:name=".WeekstoDays" />
         <activity android:name=".DaystoWeeks" />
