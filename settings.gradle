@@ -1,3 +1,5 @@
-include ':app'
 rootProject.name = "Bca All in One"
+include ':app'
+
+
 
