@@ -20,7 +20,7 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        imageView5=findViewById(R.id.imageView5);     // giving id to the image
+       // imageView5=findViewById(R.id.imageView5);     // giving id to the image
         imageView5.setOnClickListener(new View.OnClickListener() {                     // click of image
             @Override
             public void onClick(View view) {
