@@ -16,8 +16,7 @@
         android:src="@drawable/ic_category"
         android:tint="@color/primary_label"
         app:layout_constrainStrart_topStartof="parent"
-        app:layout_constrainTop_toTop="parent"
-        android:layout_marginLeft="@dimen/_16sdp" />
+        app:layout_constrainTop_toTop="parent"/>
 
 
     <androidx.cardview.widget.CardView
