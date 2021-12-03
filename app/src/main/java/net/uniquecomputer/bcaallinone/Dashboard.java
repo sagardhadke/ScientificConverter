@@ -21,12 +21,12 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
 
        // imageView5=findViewById(R.id.imageView5);     // giving id to the image
-        imageView5.setOnClickListener(new View.OnClickListener() {                     // click of image
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Dashboard.this,CategoryActivity.class));         // calling another  activity
-            }
-        });
+      //  imageView5.setOnClickListener(new View.OnClickListener() {                     // click of image
+      //      @Override
+      //      public void onClick(View view) {
+      //          startActivity(new Intent(Dashboard.this,CategoryActivity.class));         // calling another  activity
+      //      }
+     //   });
 
         bottomNavigationView = findViewById(R.id.botton_navigator);
         bottomNavigationView.setSelectedItemId(R.id.dashboard);
