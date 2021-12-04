@@ -153,6 +153,18 @@
             app:layout_constraintBottom_toTopOf="@+id/cardRecommended"
             app:layout_constraintStart_toStartOf="parent" />
 
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/appviewpage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="30dp"
+            android:paddingStart="@dimen/_50sdp"
+            android:paddingEnd="@dimen/_50sdp"
+            app:layout_constraintBottom_toTopOf="@+id/textRecommended"
+            app:layout_constraintTop_toBottomOf="@id/textView2"
+            tools:layout_editor_absoluteX="16dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
