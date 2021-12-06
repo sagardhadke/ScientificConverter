@@ -10,6 +10,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -27,13 +28,13 @@ public class Dashboard extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
         setupMoviesViewPager();
 
-       // imageView5=findViewById(R.id.imageView5);     // giving id to the image
-      //  imageView5.setOnClickListener(new View.OnClickListener() {                     // click of image
-      //      @Override
-      //      public void onClick(View view) {
+       // imageView5=findViewById(R.id.imagePoster);     // giving id to the image
+       // imageView5.setOnClickListener(new View.OnClickListener() {                     // click of image
+       //     @Override
+        //   public void onClick(View view) {
       //          startActivity(new Intent(Dashboard.this,CategoryActivity.class));         // calling another  activity
       //      }
-     //   });
+      //  });
 
         bottomNavigationView = findViewById(R.id.botton_navigator);
         bottomNavigationView.setSelectedItemId(R.id.dashboard);
@@ -90,6 +91,7 @@ public class Dashboard extends AppCompatActivity {
         java.releaseDate = "May 23, 1995";
         java.rating = 4.6f;
         movies.add(java);
+
 
         Movie Python = new Movie();
         Python.poster = R.drawable.pythonlo;
