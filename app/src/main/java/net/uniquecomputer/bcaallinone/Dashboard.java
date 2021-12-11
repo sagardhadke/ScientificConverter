@@ -2,6 +2,7 @@ package net.uniquecomputer.bcaallinone;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.MarginPageTransformer;
@@ -18,7 +19,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Dashboard extends AppCompatActivity {
+public class Dashboard extends AppCompatActivity implements View.OnClickListener {
+
+    public CardView cardRecommended;
 
     BottomNavigationView bottomNavigationView;
     ImageView imageView5;   // creating object
@@ -27,6 +30,10 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
         setupMoviesViewPager();
+
+        cardRecommended = (CardView) findViewById(R.id.cardRecommended);
+
+        cardRecommended.setOnClickListener(this);
 
        // imageView5=findViewById(R.id.imagePoster);     // giving id to the image
        // imageView5.setOnClickListener(new View.OnClickListener() {                     // click of image
@@ -126,6 +133,20 @@ public class Dashboard extends AppCompatActivity {
         movies.add(HtmlCssJavaS);
 
         return movies;
+
+    }
+
+    @Override
+    public void onClick(View view) {
+        Intent i;
+
+        switch (view.getId()) {
+            case R.id.cardRecommended :
+                i = new Intent(this,CategoryActivity.class);
+                startActivity(i);
+                break;
+
+        }
 
     }
 }
