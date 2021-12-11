@@ -65,8 +65,8 @@
 
                 <com.makeramen.roundedimageview.RoundedImageView
                     android:id="@+id/imageRecommended"
-                    android:layout_width="@dimen/_80sdp"
-                    android:layout_height="@dimen/_80sdp"
+                    android:layout_width="95dp"
+                    android:layout_height="113dp"
                     android:scaleType="centerCrop"
                     android:src="@drawable/logoc"
                     app:layout_constraintBottom_toBottomOf="parent"
