@@ -252,6 +252,7 @@
 
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/botton_navigator"
         android:layout_width="match_parent"
