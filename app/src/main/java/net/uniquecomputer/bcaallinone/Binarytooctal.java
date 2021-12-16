@@ -14,32 +14,26 @@ import android.widget.ProgressBar;
 
 public class Binarytooctal extends AppCompatActivity {
     private WebView mywebView;
-    ProgressBar progressBarWeb;
-    ProgressDialog progressDialogWeb;
+    ProgressBar progressBarBinaOc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_binarytooctal);
         mywebView=(WebView) findViewById(R.id.webview);
-        progressBarWeb = (ProgressBar) findViewById(R.id.Progressbar2);
-        progressDialogWeb = new ProgressDialog(this);
-        progressDialogWeb.setMessage("Loading Please Wait");
+        progressBarBinaOc = (ProgressBar) findViewById(R.id.ProgressbarBinaOc);
         mywebView.setWebViewClient(new WebViewClient());
         mywebView.loadUrl("https://www.unitconverters.net/numbers/binary-to-octal.htm");
         mywebView.setWebChromeClient(new WebChromeClient(){
 
             @Override
             public void onProgressChanged(WebView view, int newProgress) {
-
-                progressBarWeb.setVisibility(View.VISIBLE);
-                progressBarWeb.setProgress(newProgress);
+                progressBarBinaOc.setVisibility(View.VISIBLE);
+                progressBarBinaOc.setProgress(newProgress);
                 setTitle("Loading...");
-                progressDialogWeb.show();
-                if (newProgress ==100){
 
-                    progressBarWeb.setVisibility(View.GONE);
-                    setTitle(view.getTitle());
-                    progressDialogWeb.dismiss();
+                if (newProgress==100){
+                    progressBarBinaOc.setVisibility(View.GONE);
+                    setTitle(getTitle());
 
                 }
                 super.onProgressChanged(view, newProgress);

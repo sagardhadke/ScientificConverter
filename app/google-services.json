@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768165630521",
+    "project_id": "scientific-converter",
+    "storage_bucket": "scientific-converter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768165630521:android:bd5c931161bddc003a33e8",
+        "android_client_info": {
+          "package_name": "net.uniquecomputer.bcaallinone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768165630521-l30govrfhhkn40dnrv96jcvnbectr7f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPvMc8xMCBT7aSuCMH-olq-I8hN8LAnGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768165630521-l30govrfhhkn40dnrv96jcvnbectr7f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

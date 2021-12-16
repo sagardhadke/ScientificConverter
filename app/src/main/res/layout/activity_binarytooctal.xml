@@ -8,7 +8,7 @@
     tools:context=".Binarytooctal">
 
     <ProgressBar
-        android:id="@+id/Progressbar2"
+        android:id="@+id/ProgressbarBinaOc"
         android:layout_width="match_parent"
         android:layout_height="9dp"
         style="?android:attr/progressBarStyleHorizontal"
