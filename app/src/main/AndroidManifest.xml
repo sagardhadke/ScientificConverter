@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
-        <activity android:name=".CategoryActivity"></activity>
+        <activity
+            android:name=".SlideActivity"
+            android:exported="false" />
+        <activity android:name=".CategoryActivity" />
         <activity android:name=".YearstoMonths" />
         <activity android:name=".MonthstoYears" />
         <activity android:name=".WeekstoDays" />
@@ -59,7 +62,9 @@
         <activity android:name=".CalculatorApi" />
         <activity android:name=".Info" />
         <activity android:name=".Dashboard" />
-        <activity android:name=".MainActivity" android:exported="true">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

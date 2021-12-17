@@ -5,8 +5,16 @@
       <map>
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/background_favorite.xml" value="0.18009259259259258" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/background_search.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/btn_bg.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/ic_back.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/ic_baseline_navigate_next_24.xml" value="0.18009259259259258" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/ic_info.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/ic_next.xml" value="0.18009259259259258" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/item_container_movie.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/selected.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/seleted.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/serlector.xml" value="0.18009259259259258" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/drawable/unselected.xml" value="0.18009259259259258" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_binarytodecimal.xml" value="0.1634703196347032" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_binarytohexadecimal.xml" value="0.1634703196347032" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_binarytooctal.xml" value="0.1634703196347032" />
@@ -25,8 +33,10 @@
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_into_f.xml" value="0.11141304347826086" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_main.xml" value="0.11141304347826086" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_numbersystem_api.xml" value="0.11277173913043478" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/activity_slide.xml" value="0.16574074074074074" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/fragment_contact.xml" value="0.15324074074074073" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/item_container_movie.xml" value="0.16574074074074074" />
+        <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/slide_screen.xml" value="0.16574074074074074" />
       </map>
     </option>
   </component>
