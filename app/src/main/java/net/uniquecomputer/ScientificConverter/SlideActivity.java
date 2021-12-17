@@ -36,7 +36,6 @@ public class SlideActivity extends AppCompatActivity {
 
     private boolean isOpenAlread() {
 
-
         SharedPreferences sharedPreferences=getSharedPreferences("slide",MODE_PRIVATE);
         boolean result=sharedPreferences.getBoolean("slide",false);
         return result;

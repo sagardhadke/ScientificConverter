@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "net.uniquecomputer.bcaallinone"
+        applicationId "net.uniquecomputer.ScientificConverter"
         minSdkVersion 19
         targetSdkVersion 31
         versionCode 1

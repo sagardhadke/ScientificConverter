@@ -2,6 +2,7 @@ package net.uniquecomputer.ScientificConverter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.webkit.WebSettings;

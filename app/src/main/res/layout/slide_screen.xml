@@ -46,6 +46,7 @@
         android:layout_marginEnd="40dp"
         android:gravity="center"
         android:text="Online Complier Like C , C++ , Java , Python , Php , Html Css And Java Script."
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Titalon" />

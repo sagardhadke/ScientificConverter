@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "768165630521",
-    "project_id": "scientific-converter",
-    "storage_bucket": "scientific-converter.appspot.com"
+    "project_number": "61212145524",
+    "project_id": "scientificconverter-8126b",
+    "storage_bucket": "scientificconverter-8126b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:768165630521:android:bd5c931161bddc003a33e8",
+        "mobilesdk_app_id": "1:61212145524:android:4931e6bfddf6962e42de21",
         "android_client_info": {
-          "package_name": "net.uniquecomputer.bcaallinone"
+          "package_name": "net.uniquecomputer.ScientificConverter"
         }
       },
       "oauth_client": [
         {
-          "client_id": "768165630521-l30govrfhhkn40dnrv96jcvnbectr7f3.apps.googleusercontent.com",
+          "client_id": "61212145524-tfc7djj79aeqovmd266k6sek6uo4tib9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBPvMc8xMCBT7aSuCMH-olq-I8hN8LAnGk"
+          "current_key": "AIzaSyDUSHYikLtkyQGep-BB_iun2C04OrEVzYM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "768165630521-l30govrfhhkn40dnrv96jcvnbectr7f3.apps.googleusercontent.com",
+              "client_id": "61212145524-tfc7djj79aeqovmd266k6sek6uo4tib9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

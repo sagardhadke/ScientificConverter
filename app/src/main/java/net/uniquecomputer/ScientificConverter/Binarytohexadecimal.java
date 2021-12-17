@@ -15,15 +15,12 @@ import android.widget.ProgressBar;
 public class Binarytohexadecimal extends AppCompatActivity {
     private WebView mywebView;
     ProgressBar progressBarWeb;
-    ProgressDialog progressDialogWeb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_binarytohexadecimal);
         mywebView=(WebView) findViewById(R.id.webview);
         progressBarWeb = (ProgressBar) findViewById(R.id.Progressbar1);
-        progressDialogWeb = new ProgressDialog(this);
-        progressDialogWeb.setMessage("Loading Please Wait");
         mywebView.setWebViewClient(new WebViewClient());
         mywebView.loadUrl("https://www.rapidtables.com/convert/number/binary-to-hex.html");
         mywebView.setWebChromeClient(new WebChromeClient(){
@@ -34,12 +31,10 @@ public class Binarytohexadecimal extends AppCompatActivity {
                 progressBarWeb.setVisibility(View.VISIBLE);
                 progressBarWeb.setProgress(newProgress);
                 setTitle("Loading...");
-                progressDialogWeb.show();
                 if (newProgress ==100){
 
                     progressBarWeb.setVisibility(View.GONE);
                     setTitle(view.getTitle());
-                    progressDialogWeb.dismiss();
 
                 }
 
