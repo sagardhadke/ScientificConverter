@@ -1,9 +1,11 @@
 package net.uniquecomputer.bcaallinone;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -34,19 +36,44 @@ public class SlideviewPagerAdapter extends PagerAdapter {
         LayoutInflater layoutInflater= (LayoutInflater) ctx.getSystemService(ctx.LAYOUT_INFLATER_SERVICE);
         View view=layoutInflater.inflate(R.layout.slide_screen,container,false);
 
-        ImageView logo;view.findViewById(R.id.logo);
+        ImageView logo=view.findViewById(R.id.logo);
 
-        ImageView ind1;view.findViewById(R.id.ind1);
-        ImageView ind2;view.findViewById(R.id.ind2);
-        ImageView ind3;view.findViewById(R.id.ind3);
+        ImageView ind1=view.findViewById(R.id.ind1);
+        ImageView ind2=view.findViewById(R.id.ind2);
+        ImageView ind3=view.findViewById(R.id.ind3);
 
         TextView title=view.findViewById(R.id.Titalon);
         TextView desc=view.findViewById(R.id.descipone);
 
         ImageView next=view.findViewById(R.id.next);
         ImageView back=view.findViewById(R.id.back);
-        switch (position)
-        {
+
+        Button btnGetStarted=view.findViewById(R.id.btnGetSatrted);
+        btnGetStarted.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(ctx,MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK| Intent.FLAG_ACTIVITY_NEW_TASK);
+                ctx.startActivity(intent);
+            }
+        });
+        next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SlideActivity.viewPager.setCurrentItem(position+1);
+
+            }
+        });
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SlideActivity.viewPager.setCurrentItem(position-1);
+            }
+        });
+
+
+        switch (position) {
             case 0:
                 logo.setImageResource(R.drawable.cjavapy);
                 ind1.setImageResource(R.drawable.seleted);
@@ -65,12 +92,11 @@ public class SlideviewPagerAdapter extends PagerAdapter {
                 ind2.setImageResource(R.drawable.seleted);
                 ind3.setImageResource(R.drawable.unselected);
 
-                title.setText("Currency Conver");
+                title.setText("Currency Converter");
                 desc.setText("Currency Converter Like INR to USD , USD To EUR , Etc..");
                 back.setVisibility(View.VISIBLE);
                 next.setVisibility(View.VISIBLE);
                 break;
-
 
             case 2:
                 logo.setImageResource(R.drawable.complierdev);
@@ -78,11 +104,12 @@ public class SlideviewPagerAdapter extends PagerAdapter {
                 ind2.setImageResource(R.drawable.unselected);
                 ind3.setImageResource(R.drawable.seleted);
 
-                title.setText("Android App Developer sagar Dhadke");
-                desc.setText("Android App Developer Sagar Dhadke ");
+                title.setText("Android App Developer");
+                desc.setText("Android App Developer");
                 back.setVisibility(View.VISIBLE);
                 next.setVisibility(View.GONE);
                 break;
+
 
 
         }
