@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bca All in One</string>
+    <string name="app_name">Scientific Converter</string>
     <string name="profile">Profile</string>
     <string name="c_logo">C logo</string>
     <string name="june_3_2003">June 3, 2003</string>
@@ -16,5 +16,5 @@
     <string name="Contact_uniquecomputer_net" />
     <string name="ask_your_query" />
     <string name="send_your_message" />
-    <string name="_91_8383066031" />
+
 </resources>

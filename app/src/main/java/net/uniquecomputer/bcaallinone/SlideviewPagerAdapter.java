@@ -16,9 +16,7 @@ public class SlideviewPagerAdapter extends PagerAdapter {
 
     Context ctx;
 
-    public SlideviewPagerAdapter(Context ctx) {
-        this.ctx = ctx;
-    }
+    public SlideviewPagerAdapter(Context ctx) { this.ctx = ctx; }
 
     @Override
     public int getCount() {
@@ -32,7 +30,7 @@ public class SlideviewPagerAdapter extends PagerAdapter {
 
     @NonNull
     @Override
-    public Object instantiateItem(@NonNull ViewGroup container, int position) {
+    public Object instantiateItem(@NonNull ViewGroup container,final int position) {
         LayoutInflater layoutInflater= (LayoutInflater) ctx.getSystemService(ctx.LAYOUT_INFLATER_SERVICE);
         View view=layoutInflater.inflate(R.layout.slide_screen,container,false);
 
@@ -60,7 +58,7 @@ public class SlideviewPagerAdapter extends PagerAdapter {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SlideActivity.viewPager.setCurrentItem(position+1);
+                SlideActivity.viewSlider.setCurrentItem(position+1);
 
             }
         });
@@ -68,7 +66,7 @@ public class SlideviewPagerAdapter extends PagerAdapter {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SlideActivity.viewPager.setCurrentItem(position-1);
+                SlideActivity.viewSlider.setCurrentItem(position-1);
             }
         });
 
@@ -104,8 +102,8 @@ public class SlideviewPagerAdapter extends PagerAdapter {
                 ind2.setImageResource(R.drawable.unselected);
                 ind3.setImageResource(R.drawable.seleted);
 
-                title.setText("Android App Developer");
-                desc.setText("Android App Developer");
+                title.setText("App Developer Info");
+                desc.setText("Sagar Dhadke");
                 back.setVisibility(View.VISIBLE);
                 next.setVisibility(View.GONE);
                 break;

@@ -13,7 +13,13 @@
         android:theme="@style/Theme.BcaAllInOne">
         <activity
             android:name=".SlideActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".CategoryActivity" />
         <activity android:name=".YearstoMonths" />
         <activity android:name=".MonthstoYears" />
@@ -65,11 +71,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data

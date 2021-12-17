@@ -9,16 +9,16 @@ import android.os.Bundle;
 
 public class SlideActivity extends AppCompatActivity {
 
-   public static ViewPager viewPager;
+   public static ViewPager viewSlider;
     SlideviewPagerAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_slide);
 
-        viewPager.findViewById(R.id.viewSlider);
+        viewSlider=findViewById(R.id.viewSlider);
         adapter=new SlideviewPagerAdapter(this);
-        viewPager.setAdapter(adapter);
+        viewSlider.setAdapter(adapter);
         if (isOpenAlread())
         {
             Intent intent=new Intent(SlideActivity.this,MainActivity.class);
