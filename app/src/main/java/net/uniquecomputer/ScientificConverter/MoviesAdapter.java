@@ -1,10 +1,13 @@
 package net.uniquecomputer.ScientificConverter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RatingBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -16,8 +19,10 @@ import java.util.List;
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewHolder> {
 
     private final List<Movie> movies;
+    private Context context;
 
-    public MoviesAdapter(List<Movie> movies) {
+    public MoviesAdapter(List<Movie> movies,Context context) {
+        this.context=context;
         this.movies = movies;
     }
 
@@ -36,6 +41,14 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
     @Override
     public void onBindViewHolder(@NonNull MovieViewHolder holder, int position) {
         holder.setMovie(movies.get(position));
+        holder.imagePoster.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context,"Java Onliner Compiler",Toast.LENGTH_SHORT).show();
+                Intent intent=new Intent(context,JavaComp.class);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

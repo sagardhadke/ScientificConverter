@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,67 +13,68 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
         <activity
-            android:name="net.uniquecomputer.ScientificConverter.SlideActivity"
-            android:exported="true" >
+            android:name=".JavaComp"
+            android:exported="false" />
+        <activity
+            android:name=".SlideActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="net.uniquecomputer.ScientificConverter.CategoryActivity" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.YearstoMonths" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MonthstoYears" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.WeekstoDays" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.DaystoWeeks" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.HourstoMinutes" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MinutesHours" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MicroSectoSec" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.SectoMicroSec" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.NStoMS" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MStoNS" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.NMtoMM" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MMtoNM" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.KmtoM" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MtoKm" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.IntoF" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Fin" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.CMToM" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MCM" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.BytesTB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.BytesGB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.BytesMB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.TBGB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.GBTB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.TbMB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MBTB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.GBMB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MBGB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.MBKB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.KBMB" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Hexadecimaltooctal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.HexadecimalTobinary" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Octaltohexadecimal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Octaltobinary" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.OctaltoDecimal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.DecimaltoHexadecimal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Binarytohexadecimal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Binarytooctal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Binarytodecimal" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Decimaltobinary" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.timeconverterapi" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.kmtomapi" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Currencyconverterapi" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.dataconverterapi" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.numbersystemApi" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.CalculatorApi" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Info" />
-        <activity android:name="net.uniquecomputer.ScientificConverter.Dashboard" />
+        <activity android:name=".CategoryActivity" />
+        <activity android:name=".YearstoMonths" />
+        <activity android:name=".MonthstoYears" />
+        <activity android:name=".WeekstoDays" />
+        <activity android:name=".DaystoWeeks" />
+        <activity android:name=".HourstoMinutes" />
+        <activity android:name=".MinutesHours" />
+        <activity android:name=".MicroSectoSec" />
+        <activity android:name=".SectoMicroSec" />
+        <activity android:name=".NStoMS" />
+        <activity android:name=".MStoNS" />
+        <activity android:name=".NMtoMM" />
+        <activity android:name=".MMtoNM" />
+        <activity android:name=".KmtoM" />
+        <activity android:name=".MtoKm" />
+        <activity android:name=".IntoF" />
+        <activity android:name=".Fin" />
+        <activity android:name=".CMToM" />
+        <activity android:name=".MCM" />
+        <activity android:name=".BytesTB" />
+        <activity android:name=".BytesGB" />
+        <activity android:name=".BytesMB" />
+        <activity android:name=".TBGB" />
+        <activity android:name=".GBTB" />
+        <activity android:name=".TbMB" />
+        <activity android:name=".MBTB" />
+        <activity android:name=".GBMB" />
+        <activity android:name=".MBGB" />
+        <activity android:name=".MBKB" />
+        <activity android:name=".KBMB" />
+        <activity android:name=".Hexadecimaltooctal" />
+        <activity android:name=".HexadecimalTobinary" />
+        <activity android:name=".Octaltohexadecimal" />
+        <activity android:name=".Octaltobinary" />
+        <activity android:name=".OctaltoDecimal" />
+        <activity android:name=".DecimaltoHexadecimal" />
+        <activity android:name=".Binarytohexadecimal" />
+        <activity android:name=".Binarytooctal" />
+        <activity android:name=".Binarytodecimal" />
+        <activity android:name=".Decimaltobinary" />
+        <activity android:name=".timeconverterapi" />
+        <activity android:name=".kmtomapi" />
+        <activity android:name=".Currencyconverterapi" />
+        <activity android:name=".dataconverterapi" />
+        <activity android:name=".numbersystemApi" />
+        <activity android:name=".CalculatorApi" />
+        <activity android:name=".Info" />
+        <activity android:name=".Dashboard" />
         <activity
-            android:name="net.uniquecomputer.ScientificConverter.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:name=".MainActivity"
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

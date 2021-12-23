@@ -84,7 +84,7 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
             page.setScaleY(0.85f + r * 0.15f);
         });
         moviesViewPager.setPageTransformer(compositePageTransformer);
-        moviesViewPager.setAdapter(new MoviesAdapter(getMovies()));
+        moviesViewPager.setAdapter(new MoviesAdapter(getMovies(),Dashboard.this));
 
     }
 
