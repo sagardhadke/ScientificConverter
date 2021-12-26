@@ -13,8 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BcaAllInOne">
         <activity
+            android:name=".htmlcssjs"
+            android:exported="false" />
+        <activity
+            android:name=".php"
+            android:exported="false" />
+        <activity
+            android:name=".cpp"
+            android:exported="false" />
+        <activity
+            android:name=".python"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,8 +38,7 @@
             android:exported="false" />
         <activity
             android:name=".SlideActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity android:name=".CategoryActivity" />
         <activity android:name=".YearstoMonths" />
         <activity android:name=".MonthstoYears" />

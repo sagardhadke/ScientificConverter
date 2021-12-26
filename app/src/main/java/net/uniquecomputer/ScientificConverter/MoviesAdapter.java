@@ -45,8 +45,24 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
             @Override
             public void onClick(View v) {
                 Toast.makeText(context,"Java Onliner Compiler",Toast.LENGTH_SHORT).show();
-                Intent intent=new Intent(context,JavaComp.class);
-                context.startActivity(intent);
+                if (movies.get(position).name.equals("Java online compiler")){
+                    Intent intent=new Intent(context,JavaComp.class);
+                    context.startActivity(intent);
+                }else if (movies.get(position).name.equals("python online compiler")){
+                    Intent intent=new Intent(context,python.class);
+                    context.startActivity(intent);
+                }else if (movies.get(position).name.equals("CPP online compiler")){
+                    Intent intent=new Intent(context,cpp.class);
+                    context.startActivity(intent);
+                }else if (movies.get(position).name.equals("PHP online compiler")){
+                    Intent intent=new Intent(context,php.class);
+                    context.startActivity(intent);
+                }else{
+                    Intent intent=new Intent(context,htmlcssjs.class);
+                    context.startActivity(intent);
+
+                }
+
             }
         });
     }
