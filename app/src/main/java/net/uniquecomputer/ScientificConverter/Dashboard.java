@@ -24,7 +24,7 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
     public CardView cardRecommended;
 
     BottomNavigationView bottomNavigationView;
-    ImageView imageView5;   // creating object
+ //   ImageView imageView5;   // creating object
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
