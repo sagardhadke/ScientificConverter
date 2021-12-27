@@ -43,7 +43,6 @@ public class Currencyconverterapi extends AppCompatActivity {
 
                 }
 
-
                 super.onProgressChanged(view, newProgress);
             }
         });

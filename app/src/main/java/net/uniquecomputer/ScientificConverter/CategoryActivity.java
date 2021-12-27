@@ -25,7 +25,7 @@ public class CategoryActivity extends AppCompatActivity {
         progressDialogCU = new ProgressDialog(this);
         progressDialogCU.setMessage("Loading Please Wait");
         mywebView.setWebViewClient(new WebViewClient());
-        mywebView.loadUrl("https://onecompiler.com/");
+        mywebView.loadUrl("https://www.tutorialspoint.com/compile_c_online.php");
         mywebView.setWebChromeClient(new WebChromeClient(){
 
             @Override
