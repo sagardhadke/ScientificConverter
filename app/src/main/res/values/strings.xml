@@ -1,20 +1,8 @@
 <resources>
     <string name="app_name">Scientific Converter</string>
-    <string name="profile">Profile</string>
-    <string name="c_logo">C logo</string>
-    <string name="june_3_2003">June 3, 2003</string>
     <string name="recommended">Recommended</string>
     <string name="c_online_compiler">C online compiler</string>
-    <string name="c_language">C language</string>
     <string name="dennis_ritchie">Dennis Ritchie</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="contact_us" />
-    <string name="Contact_Us" />
-    <string name="Phone_no">phone</string>
-    <string name="email_address" />
-    <string name="Contact_uniquecomputer_net" />
-    <string name="ask_your_query" />
-    <string name="send_your_message" />
 
 </resources>

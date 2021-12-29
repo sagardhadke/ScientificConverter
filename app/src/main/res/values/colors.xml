@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FFEB3B</color>
     <color name="purple_700">#FF83DAC5</color>
-    <color name="colorAccent">#FF9800</color>
-    <color name="colorPrimary">#FAC110</color>
     <color name="colorPrimaryDark">#FAC110</color>
     <color name="teal_200">#FF9800</color>
     <color name="teal_700">#FF018786</color>
@@ -14,7 +11,6 @@
     <color name="primary_label">#212121</color>
     <color name="secondary_label">#757575</color>
     <color name="colorGrey">#676060</color>
-    <color name="search_background">#F3F6FB</color>
     <color name="favorite_background">#FF7173</color>
 
 </resources>

@@ -1,4 +1,4 @@
-rootProject.name = "Bca All in One"
+rootProject.name = "Scientific Converter"
 include ':app'
 
 

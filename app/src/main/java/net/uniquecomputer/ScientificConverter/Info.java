@@ -104,7 +104,7 @@ public class Info extends AppCompatActivity {
         SendYourMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                gotoUrl("https://www.google.com");
+                gotoUrl("https://forms.gle/ikeJpyC72BsMXb8D9");
             }
         });
 

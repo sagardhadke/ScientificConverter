@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("net.uniquecomputer.bcaallinone", appContext.getPackageName());
+        assertEquals("net.uniquecomputer.ScientificConverter", appContext.getPackageName());
     }
 }
