@@ -19,7 +19,7 @@ import java.util.List;
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewHolder> {
 
     private final List<Movie> movies;
-    private Context context;
+    private final Context context;
 
     public MoviesAdapter(List<Movie> movies,Context context) {
         this.context=context;
@@ -44,7 +44,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MovieViewH
         holder.imagePoster.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context,"Java Onliner Compiler",Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,"Please Wait Loading Online Compiler",Toast.LENGTH_SHORT).show();
                 if (movies.get(position).name.equals("Java online compiler")){
                     Intent intent=new Intent(context,JavaComp.class);
                     context.startActivity(intent);

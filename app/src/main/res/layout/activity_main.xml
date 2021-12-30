@@ -98,10 +98,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/profile">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnprofile"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnprofile"
                                 android:background="@android:color/transparent">
 
                             </Button>
@@ -137,10 +138,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/rute">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnrout"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnrout"
                                 android:background="@android:color/transparent">
 
                             </Button>
@@ -183,10 +185,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/history">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnhistory"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnhistory"
                                 android:background="@android:color/transparent">
 
                             </Button>
@@ -268,10 +271,11 @@
                                 android:textColor="#000"
                                 android:layout_below="@+id/setting">
                             </TextView>
+
                             <Button
+                                android:id="@+id/btnsetting"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/btnsetting"
                                 android:background="@android:color/transparent">
 
                             </Button>
