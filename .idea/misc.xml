@@ -49,10 +49,13 @@
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/item_container_movie.xml" value="0.16574074074074074" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/layout/slide_screen.xml" value="0.1" />
         <entry key="..\:/Android/BcaAllinOne2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1776255707762557" />
+        <entry key="..\:/Android/ScientificConverter/app/src/main/res/layout/activity_dashboard.xml" value="0.23645833333333333" />
+        <entry key="..\:/Android/ScientificConverter/app/src/main/res/layout/activity_info.xml" value="0.23645833333333333" />
+        <entry key="..\:/Android/ScientificConverter/app/src/main/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_15" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
